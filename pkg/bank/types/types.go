@@ -39,14 +39,13 @@ const (
 type PAN string
 
 type Card struct {
-	ID         int64
-	PAN        PAN
-	Balance    Money
-	Currency   Currency
-	Color      string
-	Name       string
-	Active     bool
-	MinBalance Money
+	ID       int64
+	PAN      PAN
+	Balance  Money
+	Currency Currency
+	Color    string
+	Name     string
+	Active   bool
 }
 
 type PaymentSource struct {
