@@ -4,19 +4,19 @@ type Money int64
 
 type PaymentCategory string
 
-// type PaymentStatus string
+type PaymentStatus string
 
-// const (
-// 	StatusOk         PaymentStatus = "OK"
-// 	StatusFail       PaymentStatus = "FAIL"
-// 	StatusInProgress PaymentStatus = "INPROGRESS"
-// )
+const (
+	StatusOk         PaymentStatus = "OK"
+	StatusFail       PaymentStatus = "FAIL"
+	StatusInProgress PaymentStatus = "INPROGRESS"
+)
 
 type Payment struct {
 	ID       int
 	Amount   Money
 	Category PaymentCategory
-	// Status   PaymentStatus
+	Status   PaymentStatus
 }
 
 // type Phone string
