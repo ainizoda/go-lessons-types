@@ -19,13 +19,13 @@ type Payment struct {
 	Status   PaymentStatus
 }
 
-// type Phone string
+type Phone string
 
-// type Account struct {
-// 	ID      int
-// 	Amount  Money
-// 	Balance Money
-// }
+type Account struct {
+	ID      int
+	Amount  Money
+	Balance Money
+}
 
 type Currency string
 
